@@ -1,0 +1,45 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(https://geex.x-kom.pl/wp-content/uploads/2021/10/rick-morty-bohaterowie.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+
+  .card {
+    height: 250px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.78);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    .card__innerContainer {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .card__button {
+      margin-bottom: 30px;
+      width: 90px;
+      height: 30px;
+      background-color: white;
+      color: black;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all .35s ease-in-out;
+      &:hover{
+        color: white;
+        background-color: black;
+      }
+    }
+  }
+}

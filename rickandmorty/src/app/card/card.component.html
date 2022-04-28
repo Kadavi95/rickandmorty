@@ -1,0 +1,13 @@
+<app-loader *ngIf="(seasons$ | async) === null"></app-loader>
+<section class="container">
+  <div class="card" *ngFor="let season of seasons$ | async">
+    <div class="card__innerContainer">
+      <h3 class="card__heading">Sezon: {{season.season}}</h3>
+      <p class="card__description">Lista odcinków: {{season.episodesNumber}}</p>
+    </div>
+    <button (click)="changeRoute(season.season)" class="card__button">Więcej !</button>
+  </div>
+</section>
+<router-outlet></router-outlet>
+
+

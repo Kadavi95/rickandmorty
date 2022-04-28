@@ -1,0 +1,46 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://geex.x-kom.pl/wp-content/uploads/2021/10/rick-morty-bohaterowie.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+
+  .list__arrow{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
+
+  .episodes__data{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 750px;
+    height: 500px;
+    background-color: rgba(0,0,0,0.78);
+    border-radius: 20px;
+    .episode__data{
+      flex-direction: row;
+      justify-content: space-between;
+      display: flex;
+      width: 100%;
+
+
+      .episode__name{
+        display: flex;
+        justify-content: space-between;
+        width: 55%;
+      }
+
+      .episode__airDate {
+        display: flex;
+        justify-content: space-between;
+        width: 35%;
+      }
+    }
+  }
+}

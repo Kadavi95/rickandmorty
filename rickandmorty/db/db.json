@@ -1,0 +1,24 @@
+{
+  "seasons": [
+    {
+      "season": 1,
+      "episodesNumber": 11
+    },
+    {
+      "season": 2,
+      "episodesNumber": 10
+    },
+    {
+      "season": 3,
+      "episodesNumber": 10
+    },
+    {
+      "season": 4,
+      "episodesNumber": 10
+    },
+    {
+      "season": 5,
+      "episodesNumber": 10
+    }
+  ]
+}
