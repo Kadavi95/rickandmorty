@@ -17,7 +17,7 @@ export class ApiService {
     return this.httpClient.get<sezon[]>(`${this.urlLinkSezonsKiryl}/seasons`)
   }
 
-  public getEpisode(id: number){
-    return this.httpClient.get<episode[]>(`${this.urlLinkSezonsKiryl}/episodes/${id}`)
+  public getEpisodesBySeason(seasonId: number){
+    return this.httpClient.get<episode[]>(`${this.urlLinkSezonsKiryl}/episodes/${seasonId}`)
   }
 }

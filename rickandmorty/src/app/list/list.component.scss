@@ -11,8 +11,14 @@
 
   .list__arrow{
     position: absolute;
-    top: 50px;
-    left: 50px;
+    top: 10px;
+    left: 10px;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: color 0.35s ease-in-out;
+    &:hover {
+      color: black;
+    }
   }
 
   .episodes__data{
